@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MySQl-CRUD_kotlin</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="sort">Sort</string>
+    <string name="info">info</string>
+</resources>

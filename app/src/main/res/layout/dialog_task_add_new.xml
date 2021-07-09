@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dialog_filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_task"
+        android:layout_gravity="top|center_horizontal"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/et_add_new_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:gravity="left|top"
+        android:hint="@string/add_new_task"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:background="@color/colorNull"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="2.5dp">
+
+        <Button
+            android:id="@+id/btn_add_new_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2.5dp"
+            android:text="@string/close"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textAllCaps="false"
+            android:textStyle="normal"/>
+
+        <Button
+            android:id="@+id/btn_add_new_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2.5dp"
+            android:text="@string/add"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:textAllCaps="false"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
